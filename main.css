@@ -1,0 +1,41 @@
+/* General Styles */
+body {
+    font-family: "Roboto", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+/* hero section */
+.hero-section{
+    height: 100vh;
+}
+.hero-img-child{
+    width: 70%;
+    margin: auto;
+    height: 00px important; 
+}
+.shop-btn {
+    width: 30%;
+    border-radius: 3rem;
+}
+
+/* sponsors */
+.sponsors {
+    /* margin-top: -14rem; */
+    margin-top: -5rem;
+    z-index: 1000;
+    position: absolute;
+}
+@media screen and (min-width:1024px) {
+    .sponsors {
+        margin-top: -14rem;
+        z-index: 1000;
+        position: absolute;
+    }
+}
+@media screen and (max-width:1024px) {
+    .sponsors {
+        /* margin-top: -13rem; */
+    }
+}
