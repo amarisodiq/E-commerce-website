@@ -7,12 +7,9 @@ body {
 }
 
 /* hero section */
-.hero-section {
-    height: 100vh;
-}
 
 .hero-img-child {
-    width: 70%;
+
     margin: auto;
     height: 00px important;
 }
@@ -23,25 +20,7 @@ body {
 }
 
 /* sponsors */
-.sponsors {
-    /* margin-top: -14rem; */
-    margin-top: -5rem !important;
-    z-index: 1;
-    position: absolute;
-}
 
-@media screen and (max-width:1024px) {
-    .sponsors {
-        margin-top: -14rem !important;
-        z-index: 1;
-        position: absolute;
-    }
-}
-@media screen and (max-width:1040px) {
-    .sponsors {
-        margin-top: -3.2em !important;
-        z-index: 1000;
-        position: absolute;
-    }
-}
+
+
 
