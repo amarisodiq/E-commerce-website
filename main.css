@@ -24,3 +24,36 @@ body {
 
 
 
+/* buy button */
+.buy-btn {
+    width: 100%;
+}
+.card-rate-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-container > img {
+    height: 16rem !important;
+}
+
+
+/* browse dress style */
+.dress-styles {
+    width: 100%;
+    background-image: url(./image/casual\ style.png);
+    height: 12rem;
+}
+
+/* stay up to date */
+.sub-btn {
+    width: 100%;
+}
+
+/* .items-img {
+    height: 10%;
+} */
+/* .card-container {
+    height: 100% !important;
+} */
