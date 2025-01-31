@@ -40,10 +40,32 @@ body {
 
 
 /* browse dress style */
-.dress-styles {
+.dress-styles-casual {
     width: 100%;
     background-image: url(./image/casual\ style.png);
-    height: 12rem;
+    height: 15rem;
+    background-size: cover;
+}
+.dress-styles-formal {
+    width: 100%;
+    background-image: url(./image/formal\ style.png);
+    height: 15rem;
+    background-size: cover;
+    background-position-x: 200px;
+}
+.dress-styles-party {
+    width: 100%;
+    background-image: url(./image/party\ style.png);
+    height: 15rem;
+    background-size: cover;
+    background-position-x: -100px;
+}
+.dress-styles-gym {
+    width: 100%;
+    background-image: url(./image/gym.png);
+    height: 15rem;
+     background-size: cover;
+     background-position-y: -30px;
 }
 
 /* stay up to date */
