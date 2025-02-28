@@ -28,11 +28,11 @@ body {
 .buy-btn {
     width: 100%;
 }
-.card-rate-price {
+/* .card-rate-price {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
 .card-container > img {
     height: 16rem !important;
@@ -64,8 +64,8 @@ body {
     width: 100%;
     background-image: url(./image/gym.png);
     height: 15rem;
-     background-size: cover;
-     background-position-y: -30px;
+    background-size: cover;
+    background-position-y: -30px;
 }
 
 /* stay up to date */
@@ -79,3 +79,70 @@ body {
 /* .card-container {
     height: 100% !important;
 } */
+
+
+
+
+
+.range-slider {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+}
+
+.slider-track {
+    position: absolute;
+    height: 4px;
+    background: black;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.range-slider input {
+    position: absolute;
+    width: 100%;
+    pointer-events: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background: none;
+    z-index: 2;
+}
+
+.range-slider input::-webkit-slider-thumb {
+    pointer-events: all;
+    width: 16px;
+    height: 16px;
+    background: black;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+.range-values {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+.a-effect:hover {
+    /* background-color: rgb(241, 241, 229); */
+    font-size: 18px;
+  }
+
+  /* btn for size */
+  .btn-size {
+    border:none;
+    color: rgb(153, 149, 149);
+  }
+  .btn-size:active {
+    background-color: black;
+  }
+
+
