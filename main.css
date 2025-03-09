@@ -150,3 +150,71 @@ body {
     border: none;
     /* padding: 0.5rem 0.7rem; */
 }
+
+
+
+
+
+
+
+.scrolling-container {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  /* background: rgb(167, 158, 158); Match the original strip */
+  padding: 10px 0;
+}
+
+.scrolling-content {
+  display: flex;
+  gap: 3rem;
+  width: max-content;
+  animation: scroll 15s linear infinite;
+}
+.scrolling-content-2 {
+  display: flex;
+  gap: 3rem;
+  animation: scroll 10s linear infinite;
+}
+
+
+@keyframes scroll {
+  from {
+      transform: translateX(10);
+  }
+  to {
+      transform: translateX(-50%);
+  }
+}
+
+
+
+
+
+
+.reviews-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    background: white; /* Match the section's color */
+    padding: 20px 0;
+}
+
+.reviews-content {
+    display: flex;
+    width: max-content;
+    gap: 3rem;
+    animation: scroll 15s linear infinite; /* Slower animation */
+}
+
+
+
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
