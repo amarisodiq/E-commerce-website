@@ -35,7 +35,7 @@ body {
 } */
 
 .card-container > img {
-    height: 16rem !important;
+    height: 13rem !important;
 }
 
 
@@ -74,7 +74,7 @@ body {
 }
 
 /* .items-img {
-    height: 10%;
+    height: 40vh;
 } */
 /* .card-container {
     height: 100% !important;
