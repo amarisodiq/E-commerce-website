@@ -218,3 +218,16 @@ body {
         transform: translateX(-50%);
     }
 }
+
+
+
+
+/* .custom-width-1 {
+    width: 50%; /* Default for small screens */
+  }
+
+  @media (min-width: 768px) { /* Large screens (lg and above) */
+    .custom-width {
+      width: 25%;
+    }
+  } */
